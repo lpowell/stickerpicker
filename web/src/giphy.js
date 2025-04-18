@@ -74,7 +74,7 @@ export class GiphySearchTab extends Component {
 				"mimetype": "image/webp",
 			},
 			"msgtype": "m.image",
-			"url": GIPHY_MXC_PREFIX + gif.id,
+			"url": GIPHY_MXC_PREFIX + gif.id + ".webp",
 
 			"id": gif.id,
 			"filename": gif.id + ".webp",
